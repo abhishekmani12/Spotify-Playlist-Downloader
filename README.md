@@ -15,3 +15,6 @@ OPTION 2:
 Plan to deploy as a web app where user needs to give the link of the spotify playlist.
 
 * Note that this is a form of copyright infringement and will not be used for commercial purposes.
+
+ISSUES:
+* To circumvent Quota limit on YT API, current implementation supports 1200 song downloads for every 24h
