@@ -6,7 +6,7 @@
 
 
 OPTION 1:
-* Download Audio Stream from Pytube
+* Download Audio Stream from Pytube. Format: webm
 
 OPTION 2:
 * Within buffer, MoviePy lib is is used to extract audio from the video. Possible audio formats include MP3 and AAC or AC3.
@@ -17,4 +17,5 @@ Plan to deploy as a web app where user needs to give the link of the spotify pla
 * Note that this is a form of copyright infringement and will not be used for commercial purposes.
 
 ISSUES:
-* To circumvent Quota limit on YT API, current implementation supports 1200 song downloads for every 24h
+* To circumvent Quota limit on YT API, current implementation supports 1200 song downloads for every 24h.
+* Conversion from webm to mp4 is lossy.
